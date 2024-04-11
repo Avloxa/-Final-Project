@@ -1,0 +1,125 @@
+header{
+    max-width: 1366px;
+    height: 768px;
+    background-image: url(../images/mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 21px 93px 144px 93px;
+    margin: auto;
+    
+    .top-header{
+        max-width: 1366px;
+        height: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav-list{
+            display: flex;
+            column-gap: 50px;
+            .list-items{
+                a{
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 16.42px;
+                }
+            }
+        }
+       .sing-in{
+        max-width: 130px;
+        height: 16px;
+        display: flex;
+        column-gap: 33px;
+        justify-content: center;
+        align-items: center;
+        button{
+            max-width: 100px;
+            height: 48px;
+            border-radius: 18px;
+            padding: 16px 25px;
+             background: linear-gradient(90deg, #CD1A40 -11%, #FF803C 109.5%);
+             color: #FFFFFF;
+             border: none;
+             cursor: pointer;
+        }
+       }
+    }
+    .now-div{
+        max-width: 580px;
+        height: 415px;
+        margin-top: 209px;
+        
+        h1{
+            font-size: 86px;
+            font-weight: 700;
+            line-height: 100.88px;
+            color: #fff;
+            margin: 16px 0px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            color: #fff;
+            font-weight: 400;
+        }
+        .find-div{
+            max-width:580px ;
+            height: 96px;
+            border-radius: 28px;
+            background: #FFFFFF1A;
+            margin-top: 48px;
+            padding: 15px 21px;
+           
+            .location{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                h4{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: #fff;
+                    }
+                    h3{
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        color: #fff;
+                        margin-top: 2px;
+                        }
+                        .date{
+                            max-width: 201px;
+                            height: 50px;
+                            display: flex;
+                            column-gap: 16px;
+                            
+                            h4{
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                color: #fff;
+                            }
+                            h3{
+                                max-width: 126px;
+                                height: 24px;
+                                font-size: 20px;
+                                font-weight: 700;
+                                line-height: 24px;
+                                color: #fff;
+                            }
+                            
+                        }
+                        .lupa{
+                            max-width: 65px;
+                            height: 65px;
+                            border-radius: 18px;
+                            background: linear-gradient(90deg, #CD1A40 -11%, #FF803C 109.5%);
+                            border: none;
+                            cursor: pointer;
+                        }
+            }
+        }
+    }
+}
