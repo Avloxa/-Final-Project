@@ -27,6 +27,9 @@
         max-width: 1180px;
         height: 626px;
         margin: 36px auto;
+        display: flex;
+        column-gap: 20px;
+        
         .malaizia{
             max-width: 588px;
             height: 626px;
@@ -60,6 +63,112 @@
                 }
             }
         }
+        .tree-box{
+            max-width: 580px;
+            height: 626px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            .dubai{
+                max-width: 280px;
+                height: 306px;
+                position: relative;
+                .dubai-box{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    h3{
+                        font-size: 46px;
+                        font-weight: 400;
+                        line-height: 66.7px;
+                        color: #ffffff;
+                        text-align: center;
+                    }
+                    button{
+                        max-width: 100px;
+                        height: 48px;
+                        border-radius: 18px;
+                        padding: 16px 17px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 16.42px;
+                        border: none;
+                        color: #FFFFFF;
+                        cursor: pointer;
+                        background: linear-gradient(90deg, #CD1A40 -11%, #FF803C 109.5%);
+                        margin-top: 8px;
+                    }
+                }
+            }
+            .Greece{
+                max-width: 280px;
+                height: 306px;
+                position: relative;
+                
+                .greece-box{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    h3{
+                        font-size: 46px;
+                        font-weight: 400;
+                        line-height: 66.7px;
+                        color: #ffffff;
+                        text-align: center;
+                    }
+                    button{
+                        max-width: 100px;
+                        height: 48px;
+                        border-radius: 18px;
+                        padding: 16px 17px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 16.42px;
+                        border: none;
+                        color: #FFFFFF;
+                        cursor: pointer;
+                        background: linear-gradient(90deg, #CD1A40 -11%, #FF803C 109.5%);
+                        margin-top: 8px;
+                    }
+                }
+            }
+            .singapure{
+                max-width: 580px;
+                height: 306px;
+                position: relative;
+                .singapure-box{
+                    position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        h3{
+                            font-size: 46px;
+                            font-weight: 400;
+                            line-height: 66.7px;
+                            color: #ffffff;
+                            text-align: center;
+                        }
+                        button{
+                            max-width: 100px;
+                            height: 48px;
+                            border-radius: 18px;
+                            padding: 16px 17px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 16.42px;
+                            border: none;
+                            color: #FFFFFF;
+                            cursor: pointer;
+                            background: linear-gradient(90deg, #CD1A40 -11%, #FF803C 109.5%);
+                            margin: 8px 22px 0px 22px;
+                        }
+                }
+            }
+        }
+        
     }
+    
 
 }
