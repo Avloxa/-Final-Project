@@ -1,0 +1,65 @@
+.choose-box{
+    max-width: 1360px;
+    margin: 76px auto;
+    .choose{
+        max-width: 388px;
+        height: 150px;
+        margin: auto;
+        h3{
+            font-size: 46px;
+            font-weight: 400;
+            line-height: 66.7px;
+            color: #CD1A40;
+            font-family: Water Brush;
+            text-align: center;
+        }
+        h2{
+            font-family: Work Sans;
+            font-weight: 200;
+            font-size: 64px;
+            line-height: 75.07px;
+            color: #1E1E1E;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+    .picture-box{
+        max-width: 1180px;
+        height: 626px;
+        margin: 36px auto;
+        .malaizia{
+            max-width: 588px;
+            height: 626px;
+            position: relative;
+            .mal-box{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                
+                h3{
+                    font-size: 46px;
+                    font-weight: 400;
+                    line-height: 66.7px;
+                    color: #ffffff;
+                    text-align: center;
+                }
+                button{
+                    max-width: 100px;
+                    height: 48px;
+                    border-radius: 18px;
+                    padding: 16px 17px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 16.42px;
+                    border: none;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                    background: linear-gradient(90deg, #CD1A40 -11%, #FF803C 109.5%);
+                    margin: 8px 34px 0px 34px;
+                }
+            }
+        }
+    }
+
+}
