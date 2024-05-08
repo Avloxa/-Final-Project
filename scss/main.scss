@@ -1,6 +1,9 @@
 @import "./reset";
 @import "./header";
 @import"./section-one";
+@import"./section-tow";
+@import"./section-three";
+@import"./section-four";
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
 @import"./responsive";
@@ -10,6 +13,9 @@ body{ font-family: "Work Sans", sans-serif;
     display: flex;
 }
 .choose-box{
+    font-family: "Water Brush", cursive;
+}
+.active-section{
     font-family: "Water Brush", cursive;
 }
 }

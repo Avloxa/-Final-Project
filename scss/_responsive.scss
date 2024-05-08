@@ -1,7 +1,134 @@
 @media(max-width: 500px){
-    .top-header{
-        .nav-list{
+    header{
+        padding: 20px;
+        .top-header{
+
+            .nav-list{
+    
+                .list-items{
+                    display: none;
+                }
+            }
+            .sing-in{
+                display: none;
+                button{
+                    display: none;
+                }
+            }
+           
+        }
+        .now-div{
+            margin-top: 60px;
+            h1{
+                font-size: 40px;
+                line-height:50px;
+            }
+            .find-div{
+                
+                .location{
+                    display: flex;
+                    justify-content: space-between;
+                    
+                    h3{
+                        font-size: 16px;
+                        line-height: 18px;
+                    }
+                    .date{
+
+                        h3{
+                            font-size: 15px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .choose-box{
+        margin: 20px auto;
+        padding: 10px;
+        .choose{
+            h3{
+                font-size: 30px;
+            }
+            h2{
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+        .picture-box{
+            margin: 10px auto;
+            flex-direction: column;
+            .malaizia{
+                display: none;
+            }
+           .tree-box{
+            padding: 60px;
+            .singapure{
+                display: none;
+            }
+           }
+        }
+    }
+    .active-section{
+        padding: 20px;
+        .activ-div{
+            margin:  auto;
+            h3{
+                font-size: 30px;
+                line-height: 33px;
+            }
+            h4{
+                font-size: 40px;
+                line-height: 50px;
+            }
+        }
+        .active-tow{
             display: none;
         }
     }
+    .populas-section{
+        
+        .populas-div{
+            h3{
+                font-size: 30px;
+                line-height: 30px;
+            }
+            h2{
+                font-size: 40px;
+                line-height: 30px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+        .tour-box{
+            flex-direction: column;
+            padding: 20px;
+            margin: 15px;
+        }
+    }
+
+    .review-section{
+        padding: 20px;
+        .review-div{
+            h3{
+                font-size: 30px;
+                line-height: 40px;  
+            }
+            h2{
+                font-size: 30px;
+                line-height: 30px;
+            }
+        
+        }
+        .top-reviews{
+            .img-box{
+                display: none;
+            }
+        }
+    }
+
 }
