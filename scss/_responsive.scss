@@ -137,4 +137,34 @@
         display: none;
     }
 
+    .footer-section{
+        padding: 20px 30px;
+        
+        
+
+        .geolab-logo{
+            .about-box{
+                display: none;
+            }
+            .contact-box{
+                margin-left: 45px;
+                
+                h3{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 50.5px;
+                    color: #da1313;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 15.11px;
+                    color: #da1313;
+                    margin-top:15px;
+                }
+            }
+        }
+    }
+
 }
