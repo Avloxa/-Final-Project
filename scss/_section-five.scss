@@ -1,5 +1,5 @@
 .news-section{
-    max-width:1360px ;
+    max-width:1200px ;
     height: 520px;
     margin:248px auto 10px auto;
     background: linear-gradient(90deg, #CD1A40 -11%, #FF803C 109.5%);
@@ -12,7 +12,7 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-120%,-62%);
+        transform: translate(-106%,-62%);
     }
 
     .newsletter-div{
@@ -34,7 +34,7 @@
             margin-bottom: 26px;
         }
         .email-input{
-            width: 490px;
+            width: 400px;
             height: 74px;
             background: #FFFFFF33;
             border: none;

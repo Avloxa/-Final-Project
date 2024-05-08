@@ -1,5 +1,5 @@
 header{
-    max-width: 1366px;
+    max-width: 1200px;
     height: 768px;
     background-image: url(../images/mountain.png);
     background-repeat: no-repeat;
@@ -9,11 +9,15 @@ header{
     margin: auto;
     
     .top-header{
-        max-width: 1366px;
+        max-width: 1200px;
         height: 48px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        .meniu-icon{
+            display: none;
+        }
 
         .nav-list{
             display: flex;
@@ -34,6 +38,9 @@ header{
         column-gap: 33px;
         justify-content: center;
         align-items: center;
+        p{
+            
+        }
         
         button{
             max-width: 100px;

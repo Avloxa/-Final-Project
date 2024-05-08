@@ -4,38 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Listee Traveling Page</title>
 </head>
 <body>
-    <header>
-      <div class="top-header">
+    <header >
+      <div class="top-header"data-aos="fade-down" >
          <a href="index.html">
-            <img src="images/Listee Travel.png" alt="logo" >
+            <img src="images/Listee-Travel.png" alt="logo" >
+         </a>
+         <a href="index.html">
+            <img src="images/menu.svg" alt="meniu" class="meniu-icon" />
          </a>
             <nav >
             <ul class="nav-list">
                 <li class="list-items">
-                 <a href="#">Home</a>   
+                 <a href="index.html">Home</a>   
                 </li>
                 <li class="list-items">
-                 <a href="#">Destination</a>   
+                 <a href="#Destination">Destination</a>   
                 </li>
                 <li class="list-items">
-                 <a href="#">activity</a>   
+                 <a href="#activity">activity</a>   
                 </li>
                 <li class="list-items">
-                  <a href="#">Popular</a>   
+                  <a href="#Popular">Popular</a>   
                  </li>
                 <li class="list-items">
-                 <a href="#">Review & Testimonials</a>   
+                 <a href="#Review & Testimonials">Review & Testimonials</a>   
                 </li>
                 <li class="list-items">
-                 <a href="#">Contacts</a>   
+                 <a href="#Contacts">Contacts</a>   
                 </li>
             </ul>
          </nav>
          <div class="sing-in">
-            <img src="images/Sign In.png" alt="Sign">
+            <img src="images/Sign In.png" alt="sing-in">
             <button>SingUp</button>
          </div>
       </div>
@@ -65,7 +69,7 @@
             </div>
          </div>
     </header>
-    <section class="choose-box">
+    <section class="choose-box" id="Destination" data-aos="fade-up">
       <div class="choose">
          <h3>Choose your</h3>
          <h2>Destination</h2>
@@ -106,7 +110,7 @@
          <button class="view-btn">View More</button>
       </div>
     </section>
-    <section class="active-section" >
+    <section class="active-section" id="activity"data-aos="zoom-in">
       <div class="activ-div">
          <h3>Travel by</h3>
          <h4>activity</h4>
@@ -145,7 +149,7 @@
          </div>
       </div>
     </section>
-    <section class="populas-section">
+    <section class="populas-section" id="Popular"data-aos="zoom-in-down">
       <div class="populas-div">
          <h3>Popular</h3>
          <h2>tour packages</h2>
@@ -184,7 +188,7 @@
         </div>
       </div>
     </section>
-    <section class="review-section">
+    <section class="review-section" id="Review & Testimonials"data-aos="fade-left">
       <div class="review-div">
          <h3>Review & Testimonials</h3>
          <h2>top reviews for etour</h2>
@@ -207,7 +211,7 @@
          </div>
       </div>
     </section>
-    <section class="news-section">
+    <section class="news-section"data-aos="fade-right">
       <div class="hous-img">
          <img src="/images/pngwing.com 1.png" alt="House">
       </div>
@@ -223,7 +227,7 @@
             </div>
       </div>
     </section>
-    <footer class="footer-section">
+    <footer class="footer-section" id="Contacts">
       <div class="geolab-logo">
          <div class="geolab-box">
             <a href="index.html">
@@ -259,5 +263,12 @@
          </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+         duration: 1000,
+      });
+    </script>
 </body>
 </html>
